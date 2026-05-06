@@ -4,6 +4,7 @@ console.log(title);
 
 title.textContent = 'Web Page Components';
 
+
 //same thing with different code
 //document.querySelector('h1').textContent = 'Web Page Components';
 
