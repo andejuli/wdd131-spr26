@@ -25,7 +25,9 @@ h1, h2, p {
 img {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
 #topics {
     width: 55%;
@@ -41,3 +43,6 @@ img {
     color: white;
 }
 
+.highlight {
+    background-color: yellow;
+}

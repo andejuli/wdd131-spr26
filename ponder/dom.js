@@ -4,6 +4,10 @@ console.log(title);
 
 title.textContent = 'Web Page Components';
 
+title.addEventListener('click', function(){
+    title.classList.toggle('highlight');
+})
+
 
 //same thing with different code
 //document.querySelector('h1').textContent = 'Web Page Components';
@@ -30,7 +34,7 @@ para.classList.add('background');
 
 const image = document.querySelector('img');
 
-image.setAttribute('src', 'images/new_logo.png');
+image.setAttribute('src', 'images/person.jpg');
 
 const dropdown = document.querySelector('#webdevlist');
 const html = document.querySelector('#html');
